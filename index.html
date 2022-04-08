@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Museum</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/stylle.css">
+    <!--[if lt IE 9]>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Start Container -->
+    <div id="container">
+        <!-- Start header -->
+        <header>
+            <div id="logo">
+                <h1><a href="">National museum</a></h1>
+            </div>
+            <!-- Start nav -->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Expositions</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <!-- End nav -->
+        </header>
+        <!-- End header -->
+        <!-- Start mmain -->
+        <main>
+            <div id="content">
+                <section id="cover">
+                    <img src="img/museu.png" alt="museum">
+                </section>
+                <section id="posts">
+                    <article id="video">
+                        <h3>video: discover the museum</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </article>
+                    <article id="map">
+                        <h3>map: where to find us</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29401.643191871637!2d-43.215530534203914!3d-22.905793659196952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1649361028216!5m2!1spt-BR!2sbr"
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </article>
+                    <article id="exposition">
+                        <h3>Expositions</h3>
+                        <ul>
+                            <li><a href="#">the scary insects</a></li>
+                            <li><a href="">Luzia's skull, the oldest woman in Brazil</a></li>
+                            <li><a href="">Giant sloth and saber-toothed tiger</a></li>
+                            <li><a href="">Plants from Central Brazil</a></li>
+                            <li><a href="">Teresa Cristina: The Archaeologist Empress.</a></li>
+                            <li><a href="">Art with dinosaurs - Paleoart</a></li>
+                            <li><a href="#"><strong>See all (65)</strong></a></li>
+                        </ul>
+                    </article>
+                    <article id="history">
+                        <h3>200 years of history</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta porta odio a aliquam. Nunc lacus sem, vestibulum ut elit quis, viverra congue lectus. Sed odio erat, feugiat at aliquam egestas, semper vel nunc. Duis bibendum efficitur fermentum.
+                            Aenean sollicitudin ligula nunc, vitae varius nunc tristique non. Duis lectus purus, elementum in eleifend eget, malesuada vitae velit. Ut volutpat quis est id aliquam. Donec ornare auctor elit, id lacinia quam malesuada eu.
+                            Suspendisse sed molestie orci. Phasellus ut enim id ligula bibendum viverra sed ut nisl.
+                        </p>
+                        <a href="#"><strong>Lead more...</strong></a>
+                    </article>
+                </section>
+            </div>
+            <aside>
+                <section id="testimony">
+                    <img src="img/depoimento.png" alt="testimony">
+                </section>
+                <section id="visit">
+                    <h4>Pay a visit</h4>
+                    <form action="#">
+                        <fieldset>
+                            <legend>Select a date</legend>
+                            <label for="date">Date</label>
+                            <input class="field" type="text" id="date" value="dd/mm/aaaa">
+                            <label for="total">Total people</label>
+                            <!-- <input class="field" style="width: 30px;" type="text" id="total" value="1"> -->
+                            <select name="field" id="field">
+                                <option value="0">00</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                            </select>
+                        </fieldset>
+                        <input class="button" type="submit" value="Check availability">
+                    </form>
+                </section>
+                <section id="gallery">
+                    <h4>Photo gallery</h4>
+                    <a href="">
+                        <img src="img/imagem1.jpg" alt="imagem1" height="93px" width="93px">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem2.jpg" alt="imagem1" height="93px" width="93px">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem3.jpg" alt="imagem1" height="93px" width="93px">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem4.jpg" alt="imagem1" height="93px" width="93px">
+                    </a>
+                </section>
+            </aside>
+            <footer style="clear: both;">
+                <ul class="row">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Expositions</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <p>
+                    &copy; 2022 <a href="http://www.museunacional.ufrj.br/">National Museum</a>-Todos os direitos reservados
+                </p>
+                <p>By <a href="https://github.com/vitorinos">José Vitorino</a></p>
+            </footer>
+        </main>
+        <!-- End main -->
+    </div>
+    <!-- End Container -->
+</body>
+
+</html>
